@@ -3,4 +3,5 @@
   :url "http://example/com"
   :licence {:name "MIT"}
   :dependencies [[org.clojure/clojure "1.7.0"]]
-  :main functional-tic-tac-toe.core)
+  :plugins [[cider/cider-nrepl "0.12.0"]]
+  :main functional-tic-tac-toe.console)

@@ -1,0 +1,132 @@
+(defn new-game []
+[(into [] (map str (range 1 10))) "X"])
+new-game
+(new-game)
+(defn new-game []
+  [(into [] (map str (range 1 10))) "X"])
+(new-game)
+(new-game 1)
+(first new-game)
+(:first new-game)
+(nth new-game)
+(get (new-game) 0)
+(get (new-game) 1)
+(defn- legal-input? [input]
+  (some (partial = input) #{"1" "2" "3" "4" "5" "6" "7" "8" "9"}))
+legal-input
+(defn legal-input? [input]
+(some (partial = input) #{"1" "2" "3" "4" "5" "6" "7" "8" "9"}))
+legal-input?
+(legal-input? 1)
+(legal-input? "1")
+(legal-input? "10")
+(defn legal-input?
+(some (partial) #{"1" "2" "3" "4" "5" "6" "7" "8" "9"}))
+(defn legal-input?
+(some (partial #{"1" "2" "3" "4" "5" "6" "7" "8" "9"}))
+)
+(defn legal-input? [input]
+)
+(let a [1])
+(let [a 1])
+a
+q
+(def a 1)
+a
+(def a #{"1" 2" 3"}
+)
+a
+(def a #{"1" "2" "3"})
+a
+(get (a) 1)
+(get a 1)
+(get a 2)
+(get a 4)
+(get a "1")
+(get a "0")
+(get a "2")
+(get a "3")
+(get a "4")
+(some "1" a)
+(some a "1")
+(some a "2")
+(some a "0")
+(defn legal-input? [input]
+(some (partial = input) #{"1" "2" "3" "4" "5" "6" "7" "8" "9"}))
+(legal-input? "2")
+a
+("2" a)
+(a "2")
+(a "4")
+(a "2")
+(defn weird [input]
+(partial = input))
+(weird 1)
+(println (weird 1))
+(defn move [[board player :as game] move]
+)
+move
+(move)
+(move [1 2])
+(move [1 2] "hello")
+lein repl
+d
+(rest (1 2 3))
+(res [1 2 3])
+exit
+rest
+(rest)
+(rest 1 2 3)
+(rest [1 2 3])
+cd ..
+exit
+cpr
+clojure
+clojure please require
+exit
+ls
+(legal-input? 5)
+(legal-input? "5")
+(legal-input? :5)
+(def player "X")
+player
+(if (= player "X") "O" "X")
+exit
+*1
+1
+*e
+(source first)
+(-main)
+indexed
+exit
+indexed
+exit
+winner-exists
+winning-comos
+winning-combos
+(winning-combos)
+(vec (range 1 10))
+(vec (replicate 10 "X"))
+(vec (replicate 9 "X"))
+(winner-exists)
+(winner-exists vec)
+(winning-combos)
+(winning-combos
+)
+winning-combos
+(winning-combos 1)
+(winner-exists (vec (replicate 9 "X")) (winning-combos 1))
+(winner (vec (replicate 9 "X")))
+(winner ["X" "X" "X" " " " " " " " " " " "]))
+(winner ["X" "X" "X" " " " " " " " " " " "])
+)
+))
+)
+(winner ["X" "X" "X" " " " " " " " " " " "])
+(winner-exists (vec (replicate 9 "X")) (winning-combos 1))
+(winner (vec (replicate 9 "X")))
+(first nil)
+(winner (vec (replicate 9 "X")))
+(winner (vec (replicate 9 " ")))
+(winner (vec (replicate 9 "X")))
+(winner (vec (replicate 9 " ")))
