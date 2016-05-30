@@ -130,3 +130,4 @@ winning-combos
 (winner (vec (replicate 9 " ")))
 (winner (vec (replicate 9 "X")))
 (winner (vec (replicate 9 " ")))
+exit
