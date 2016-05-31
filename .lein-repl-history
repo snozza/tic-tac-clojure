@@ -131,3 +131,9 @@ winning-combos
 (winner (vec (replicate 9 "X")))
 (winner (vec (replicate 9 " ")))
 exit
+(defn prompt [question]
+(println question)
+(read-line))
+(prompt "How old are you"?)
+(prompt "How old are you")
+(with-in-str "34" (prompt "How old are you?"))
